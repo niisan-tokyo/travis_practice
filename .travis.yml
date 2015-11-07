@@ -6,9 +6,11 @@ php:
 before_script:
   - composer self-update
   - composer install
+
+script:
+  - vendor/bin/phpunit test/
   
 after_script:
   - vendor/bin/phpcs app/ --standard=PSR2
   - vendor/bin/phpcpd app/
   - vendor/bin/phpmd app text codesize,controversial,design,naming,unusedcode
-  - vendor/bin/phpunit test/
