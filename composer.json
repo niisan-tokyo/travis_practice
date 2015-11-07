@@ -1,0 +1,14 @@
+{
+    "name": "niisan-tokyo/travis_practice",
+    "description": "The practice of travis ci for php",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "niisan-tokyo",
+            "email": "niisan-tokyo@foo.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
