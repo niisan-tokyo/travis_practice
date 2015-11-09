@@ -1,4 +1,7 @@
 # travis_practice
+
+[![Build Status](https://travis-ci.org/niisan-tokyo/travis_practice.svg?branch=master)](https://travis-ci.org/niisan-tokyo/travis_practice)
+
 The practice of travis ci php 
 
 ## Travisを使用する
