@@ -19,6 +19,6 @@
         "phpmd/phpmd": "*",
         "sebastian/phpcpd": "*",
         "phpunit/phpunit": "5.0",
-        "mockery/mockery": "0.9.4"
+        "mockery/mockery": "^0.9.4"
     }
 }
