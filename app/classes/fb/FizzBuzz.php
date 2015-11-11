@@ -25,6 +25,14 @@ class FizzBuzz
     
     public function run($number)
     {
+        $str = '';
+        foreach ($this->screamers as $obj) {
+            if ($obj->check($number)) {
+                $str .= $obj->shout();
+            }
+        }
+        
+        return ($str === '') ? $number : $str;
         
     }
 }
