@@ -21,4 +21,10 @@ class FizzBuzz
         return count($this->screamers);
         
     }
+    
+    
+    public function run($number)
+    {
+        
+    }
 }
