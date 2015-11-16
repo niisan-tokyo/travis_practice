@@ -1,6 +1,7 @@
 # travis_practice
 
 [![Build Status](https://travis-ci.org/niisan-tokyo/travis_practice.svg?branch=master)](https://travis-ci.org/niisan-tokyo/travis_practice)
+[![Coverage Status](https://coveralls.io/repos/niisan-tokyo/travis_practice/badge.svg?branch=master&service=github)](https://coveralls.io/github/niisan-tokyo/travis_practice?branch=master)
 
 The practice of travis ci php 
 
@@ -14,6 +15,7 @@ The practice of travis ci php
 PHP5.6入れられればそれでいい
 
 ツールの依存性チェックとかオートローダとかはcomposerにまるなげしてる
+
 動作環境にcomposer入れていない場合は
 
 ```
