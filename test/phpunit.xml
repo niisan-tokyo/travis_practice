@@ -1,7 +1,0 @@
-<phpunit bootstrap="bootstrap.php" colors="always" >
-  <testsuites>
-    <testsuite name="travice_test">
-      <directory>.</directory>
-    </testsuite>
-  </testsuites>
-</phpunit>
