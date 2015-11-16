@@ -16,4 +16,4 @@ after_script:
   - vendor/bin/phpcs app/ --standard=PSR2
   - vendor/bin/phpcpd app/
   - vendor/bin/phpmd app text codesize,controversial,design,naming,unusedcode
-  - php vendor/bin/coveralls -v -c .coveralls.yml
+  - php vendor/bin/coveralls -vvv -c .coveralls.yml
